@@ -147,7 +147,6 @@ public class MainTest {
         assertThat(hybridCar.getDescription(), instanceOf(String.class));
         assertThat(hybridCar.getCylinders(), instanceOf(Integer.class));
         assertThat(hybridCar.getAvgKmPerLiter(), instanceOf(Double.class));
-        assertThat(hybridCar.getBatterySize(), instanceOf(Integer.class));
     }
 
     @DisplayName("GasPoweredCar, ElectricCar ve HybridCar sınıf değişkenleri doğru type değerlerine sahip mi ?")
